@@ -4,5 +4,4 @@ class OrderItem < ApplicationRecord
     validates :quantity, presence: true
 
     belongs_to :order
-    has_many :menu_items
 end
